@@ -1,0 +1,17 @@
+{
+    // ターミナルのキー送信設定
+    "terminal.integrated.allowChords": false,
+    // gitの設定
+    "git.blame.statusBarItem.enabled": true,
+    // AIエージェントの設定
+    "chat.agentFilesLocations": {
+        ".agents/agents": true,
+        ".github/agents": true,
+        ".claude/agents": true
+    },
+    "chat.agentSkillsLocations": {
+        ".agents/skills": true,
+        ".github/skills": true,
+        ".claude/skills": true
+    }
+}
