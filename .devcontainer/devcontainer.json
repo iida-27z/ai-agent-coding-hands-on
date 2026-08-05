@@ -1,0 +1,29 @@
+{
+    "name": "java25",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "MS-CEINTL.vscode-language-pack-ja",
+                "vscjava.vscode-java-pack",
+                "redhat.vscode-xml"
+            ],
+            "settings": {
+                "java.configuration.runtimes": [
+                    {
+                        "name": "JavaSE-25",
+                        "path": "/opt/java/openjdk",
+                        "default": true
+                    }
+                ],
+                "java.jdt.ls.java.home": "/opt/java/openjdk",
+                "java.configuration.updateBuildConfiguration": "automatic",
+                "java.compile.nullAnalysis.mode": "automatic",
+                "java.server.launchMode": "Standard",
+                "redhat.telemetry.enabled": false
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      dockerfile: docker/java/Dockerfile
+    environment:
+      - TZ=Asia/Tokyo
+    volumes:
+      - ../:/workspace
+    command: ["sleep", "infinity"]
