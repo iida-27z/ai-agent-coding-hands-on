@@ -1,0 +1,33 @@
+target/
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-mvn-cache/
+
+# VS Code
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db
